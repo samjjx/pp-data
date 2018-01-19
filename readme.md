@@ -54,7 +54,7 @@ Datasets| Public networks | Private networks | Public authors list | Private aut
 	Sample:
 	
 	```
-	\#Xin Huang# #241109# #networks;graph;community;knowledge;network;#
+	#Xin Huang# #241109# #networks;graph;community;knowledge;network;#
 	```
 ### Reference ###
 
