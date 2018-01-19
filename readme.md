@@ -18,7 +18,7 @@ Datasets| n | m | n' | m'| ∂
 	2. m is the number of the co-authors relationships in the public networks.
 	3. n' is the number of the authors in the private networks.
 	4. m' is the number of the co-authors relationships in the private networks.
-	5. ∂ is the arevage common arevage research interests. 
+	5. ∂ is the common average research interests. 
 
 ### Downloads ###
 
@@ -38,12 +38,13 @@ Datasets| Public networks | Private networks | Public authors list | Private aut
 
 	Sample line:
 	
+	```
 	5	2
 	
 	3	6
 	
 	2	9
-		
+	```	
 	In this case, there are three co-author relationships. 
 
 2. **Public authors list and Private authors list**
@@ -52,8 +53,9 @@ Datasets| Public networks | Private networks | Public authors list | Private aut
 	
 	Sample:
 	
+	```
 	\#Xin Huang# #241109# #networks;graph;community;knowledge;network;#
-
+	```
 ### Reference ###
 
 1. [dblp](http://dblp.uni-trier.de)
