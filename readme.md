@@ -2,7 +2,7 @@
 
 ### Introduction ###
 
-We investigate the relationships of the authors and the research interests of the authors. In this repository, we offer all the links of the datasets and report some basic statistics. 
+We investigate the relationships of the authors and their research interests. In this repository, we offer all the links of the datasets and report some basic statistics. 
 
 ### Datasets ###
 
