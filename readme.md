@@ -33,7 +33,7 @@ y-2016 | [√](https://drive.google.com/file/d/1W4YcS8DISsnOFAPob4dXkK63_VBvl-25
 
 1. **Public networks and Private networks**
 	
-	Each line is two authors which takes "\t" as separator which stands for a co-author relationship. 
+	Each line is two authors taking "\t" as separator which stands for a co-author relationship. 
 	
 
 	Sample line:
