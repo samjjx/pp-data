@@ -10,9 +10,9 @@ We investigate our research based on the dblp[1]. We divide the datasets into tw
 
 Datasets| n | m | n' | m'| ∂ 
 ----|----|----|----|----|---
-[y-2013]() | 1,882,970 | 5,234,008 | 927,516 | 3,197,915 | 0.8654
-[y-2015]() | 1,882,970 | 6,689,827 | 636,675 | 1,742,096 | 0.8977
-[y-2016]() | 1,882,970 | 7,503,744 | 427,868 |  928,179  | 0.921
+y-2013 | 1,882,970 | 5,234,008 | 927,516 | 3,197,915 | 0.8654
+y-2015 | 1,882,970 | 6,689,827 | 636,675 | 1,742,096 | 0.8977
+y-2016 | 1,882,970 | 7,503,744 | 427,868 |  928,179  | 0.921
 	
 	1. n is the number of the authors in the public networks.
 	2. m is the number of the co-authors relationships in the public networks.
@@ -25,9 +25,9 @@ Datasets| n | m | n' | m'| ∂
 #### links ####
 Datasets| Public networks | Private networks | Public authors list | Private authors list 
 ----|----|----|----|----
-[y-2013]() | [√](https://drive.google.com/file/d/1JvZeZnM7-oUsRtC2WyskOWLaHOjtTvoz/view?usp=sharing) | [√](https://drive.google.com/file/d/1EyQzjfyC5qUd1Hs1JyWGOIQOxru4whxa/view?usp=sharing) | [√](https://drive.google.com/file/d/1biPxG2xAvXrESVHru_Mu5LazWRB4zmZ9/view?usp=sharing) | [√](https://drive.google.com/file/d/1VgYL_KRdbw9oE5U6VntVp4Ws9sFhdrxF/view?usp=sharing) 
-[y-2015]() | [√](https://drive.google.com/file/d/1fcemi02O5v64My_jirC4leGlduILVWXV/view?usp=sharing) | [√](https://drive.google.com/file/d/1teFxJImlIZSWCZn6U-JfEynhq0oBH_QW/view?usp=sharing) | [√](https://drive.google.com/file/d/175GUUSPvl2WsPGOdelMsti3NiujwN8fk/view?usp=sharing) | [√](https://drive.google.com/file/d/1Tq3Vm2cL8Vi9ZfpeThV_J2KCobXyhoVu/view?usp=sharing)  
-[y-2016]() | [√](https://drive.google.com/file/d/1W4YcS8DISsnOFAPob4dXkK63_VBvl-25/view?usp=sharing) | [√](https://drive.google.com/file/d/1PkWDUj2nrWS9OYQP7T6Rqilk0Tz0Dzmg/view?usp=sharing) | [√](https://drive.google.com/file/d/1FS3fRDMXE4U-4FlJAOJ21bCLl3v0iv9G/view?usp=sharing) | [√](https://drive.google.com/file/d/16lnxtopnmZrda61-ZcUptr7gpSOTf_x5/view?usp=sharing)  
+y-2013 | [√](https://drive.google.com/file/d/1JvZeZnM7-oUsRtC2WyskOWLaHOjtTvoz/view?usp=sharing) | [√](https://drive.google.com/file/d/1EyQzjfyC5qUd1Hs1JyWGOIQOxru4whxa/view?usp=sharing) | [√](https://drive.google.com/file/d/1biPxG2xAvXrESVHru_Mu5LazWRB4zmZ9/view?usp=sharing) | [√](https://drive.google.com/file/d/1VgYL_KRdbw9oE5U6VntVp4Ws9sFhdrxF/view?usp=sharing) 
+y-2015 | [√](https://drive.google.com/file/d/1fcemi02O5v64My_jirC4leGlduILVWXV/view?usp=sharing) | [√](https://drive.google.com/file/d/1teFxJImlIZSWCZn6U-JfEynhq0oBH_QW/view?usp=sharing) | [√](https://drive.google.com/file/d/175GUUSPvl2WsPGOdelMsti3NiujwN8fk/view?usp=sharing) | [√](https://drive.google.com/file/d/1Tq3Vm2cL8Vi9ZfpeThV_J2KCobXyhoVu/view?usp=sharing)  
+y-2016 | [√](https://drive.google.com/file/d/1W4YcS8DISsnOFAPob4dXkK63_VBvl-25/view?usp=sharing) | [√](https://drive.google.com/file/d/1PkWDUj2nrWS9OYQP7T6Rqilk0Tz0Dzmg/view?usp=sharing) | [√](https://drive.google.com/file/d/1FS3fRDMXE4U-4FlJAOJ21bCLl3v0iv9G/view?usp=sharing) | [√](https://drive.google.com/file/d/16lnxtopnmZrda61-ZcUptr7gpSOTf_x5/view?usp=sharing)  
 
 #### Data format ####
 
@@ -59,4 +59,3 @@ Datasets| Public networks | Private networks | Public authors list | Private aut
 ### Reference ###
 
 1. [dblp](http://dblp.uni-trier.de)
-2. 
