@@ -24,7 +24,7 @@ y-2016 | 1,791,688 | 7,378,090 | 263,937 |  445,505  | 0.0828958851282
 ### Downloads ###
 
 #### links ####
-Datasets| Public networks | Private networks | Public authors list | Private authors list | 
+Datasets| Public networks | Private networks | Public authors list | Combined Private graphs | 
 ----|----|----|----|----
 [y-2013](https://drive.google.com/drive/folders/1LbVCgFoKtWF98CVdQ_cdfPxfy-BwY0kV?usp=sharing) | [√](https://drive.google.com/file/d/1R_pwaOltJE_luJhgOfy21ZF_OnM25dFg/view?usp=sharing) | [√](https://drive.google.com/drive/folders/1klugWDnxI4Uhw4k32Y4CM13V8mmkaQbP?usp=sharing) | [√](https://drive.google.com/file/d/1m7xe8ue2d0aLWGtaN3TD3rOALDJ8G-nS/view?usp=sharing) | [√](https://drive.google.com/file/d/1hflsJUPGg05wOtu0qQiBGbae5CxY01J3/view?usp=sharing) 
 [y-2014](https://drive.google.com/drive/folders/1oNpLKe7kqC_OGKgJddPNYrgvFtqqd9s4?usp=sharing) | [√](https://drive.google.com/open?id=1bXUzJXx4bwK4fAfBgcHtZMVS9_PFfKQx) | [√](https://drive.google.com/open?id=1y7vpsPVfEhcLOmz4WchUP3fvcVALGyWe) | [√](https://drive.google.com/open?id=1bXUzJXx4bwK4fAfBgcHtZMVS9_PFfKQx) | [√](https://drive.google.com/open?id=1sjPNv4vOvt4QXkgsTTWTDucHE-KFm53l) 
@@ -33,7 +33,7 @@ Datasets| Public networks | Private networks | Public authors list | Private aut
 
 #### Data format ####
 
-1. **Public networks and Private networks**
+1. **Public networks**
 	
 	Each line is two authors taking "\t" as separator which stands for a co-author relationship. 
 	
@@ -48,8 +48,24 @@ Datasets| Public networks | Private networks | Public authors list | Private aut
 	2	9
 	```	
 	In this case, there are three co-author relationships. 
+	
+2. **Private networks**
 
-2. **Public authors list and Private authors list**
+	We also randomly sample 50 private graphs for testing, e.g., 51673.g if a private graph for the author with id = 51673. Each line is an edge with its weight.  
+	
+	Sample line:
+	
+	```
+	1113300	212609	1
+	
+	51673	382773	1
+	
+	867747	382773	1
+	```
+	
+	In this case, there are three co-author relationships. 
+	
+3. **Public authors list**
 
 	Each line is a author and his/her research interests which wrapped up in a "#" pair. #author name# #author id# #research interests#
 	
@@ -58,6 +74,19 @@ Datasets| Public networks | Private networks | Public authors list | Private aut
 	```
 	#Xin Huang# #241109# #networks;graph;community;knowledge;network;#
 	```
+	
+4. **Combined Private graphs**
+
+	Since each vertex is associated with a private graph, we also combine all the private graphs in a file. 
+	
+	(1) The first line is a triple <Author name, # of vertices(n), # of edges(m)>.
+	
+	(2) The next n lines are the vertices in this private graph.  Each line is a triple <Author name, author id, research interests in this private graph>
+	
+	(3) The next m lines are the edges in this private graph. Each line is a tuple <src, dst>
+	
+
+ 
 ### Reference ###
 
 1. [dblp](http://dblp.uni-trier.de)
