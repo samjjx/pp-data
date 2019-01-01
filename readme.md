@@ -23,19 +23,17 @@ y-2016 | 1,791,688 | 7,378,090 | 263,937 |  445,505  | 0.0828958851282
 
 ### Downloads ###
 
+
+
 #### links ####
-Datasets| Public networks | Private networks | Public authors list | Combined Private graphs | 
+Datasets| [y-2013](https://drive.google.com/file/d/10EJEX-dLpoKO3yBlnbMTjpTE1WPIjU3a/view?usp=sharing) | [y-2014](https://drive.google.com/file/d/10Ca3uuMXSIEwZngpY7vdNW71GBFkO3iU/view?usp=sharing) | [y-2015](https://drive.google.com/file/d/10Ca3uuMXSIEwZngpY7vdNW71GBFkO3iU/view?usp=sharing) | [y-2016](https://drive.google.com/file/d/103v05vJoHQO3xCzK5wHG8fG9o2YZ6brH/view?usp=sharing) | 
 ----|----|----|----|----
-[y-2013](https://drive.google.com/drive/folders/1LbVCgFoKtWF98CVdQ_cdfPxfy-BwY0kV?usp=sharing) | [√](https://drive.google.com/file/d/1R_pwaOltJE_luJhgOfy21ZF_OnM25dFg/view?usp=sharing) | [√](https://drive.google.com/drive/folders/1klugWDnxI4Uhw4k32Y4CM13V8mmkaQbP?usp=sharing) | [√](https://drive.google.com/file/d/1m7xe8ue2d0aLWGtaN3TD3rOALDJ8G-nS/view?usp=sharing) | [√](https://drive.google.com/file/d/1hflsJUPGg05wOtu0qQiBGbae5CxY01J3/view?usp=sharing) 
-[y-2014](https://drive.google.com/drive/folders/1oNpLKe7kqC_OGKgJddPNYrgvFtqqd9s4?usp=sharing) | [√](https://drive.google.com/open?id=1bXUzJXx4bwK4fAfBgcHtZMVS9_PFfKQx) | [√](https://drive.google.com/open?id=1y7vpsPVfEhcLOmz4WchUP3fvcVALGyWe) | [√](https://drive.google.com/open?id=1bXUzJXx4bwK4fAfBgcHtZMVS9_PFfKQx) | [√](https://drive.google.com/open?id=1sjPNv4vOvt4QXkgsTTWTDucHE-KFm53l) 
-[y-2015](https://drive.google.com/drive/folders/1dqimeQLSKcaCjBXmBY_2quSgKxUCw7zr?usp=sharing) | [√](https://drive.google.com/open?id=129ZksL622Q_YTNPP_tH43tbMRhuYUJdT) | [√](https://drive.google.com/open?id=1AhK04-RXCApZdmVCdcrQCRTz1Uf5eKHF) | [√](https://drive.google.com/open?id=1RdDkdwgTbNSoGSt3_HQp8z_BrflwyqW0) | [√](https://drive.google.com/open?id=1W8cAONtRocJ_NxERET-tO7j6DUsjiWIe)  
-[y-2016](https://drive.google.com/drive/folders/19p7FAZj-KMCvDG8Mk0zyct3s0OGEhmgB?usp=sharing) | [√](https://drive.google.com/open?id=1YC2sVQF3lVr8mm-grDr0xolSRhM-05ME) | [√](https://drive.google.com/open?id=1J7KJqlA3m9j3-bXjJAe5YOz8FwdHVWB1) | [√](https://drive.google.com/open?id=1E-5le1mAait60e3I0B5FDuFEso3C0AL_) | [√](https://drive.google.com/open?id=1BmwkaerV1K3qUpRRF_lor2RrBa34Ie-f)  
 
 #### Data format ####
 
 1. **Public networks**
 	
-	Each line is two authors taking "\t" as separator which stands for a co-author relationship. 
+	Each line is two authors taking "\t" as separator which stands for a co-author relationship (author\_1, author\_2). 
 	
 
 	Sample line:
@@ -84,6 +82,26 @@ Datasets| Public networks | Private networks | Public authors list | Combined Pr
 	(2) The next n lines are the vertices in this private graph.  Each line is a triple <Author name, author id, research interests in this private graph>
 	
 	(3) The next m lines are the edges in this private graph. Each line is a tuple <src, dst>
+	
+	Sample:
+	
+	```
+	#Francesco Paolo Schena# #3# #3#
+	```
+	```
+	#Francesco Paolo Schena# #326160# #nephropathy;end;disease;classification;neural;#
+
+	#David Naso# #4363# #nephropathy;end;disease;classification;neural;#
+
+	#Giulio Binetti# #241721# #nephropathy;end;disease;classification;neural;#
+	```
+	```
+	#4363# #326160#
+	
+	#326160# #241721#
+	
+	#4363# #241721#
+	```
 	
 
  
