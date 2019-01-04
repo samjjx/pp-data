@@ -6,7 +6,7 @@ We investigate the relationships of the authors and their research interests. In
 
 ### Datasets ###
 
-We investigate our research based on the dblp[1]. We divide the datasets into two parts based on the first publication of the papers. 
+We investigate our research based on the dblp[1]. We divide the datasets into two parts based on the first publication of the papers. The dataset we used was published on 2019/01/01.
 
 Datasets| n | m | n' | m'| ∂ 
 ----|----|----|----|----|---
@@ -108,4 +108,4 @@ Datasets| [y-2013](https://drive.google.com/file/d/1QCvpmLADUuhxPRYjPiFwPs2RMcSR
  
 ### Reference ###
 
-1. [dblp](http://dblp.uni-trier.de)
+1. [dblp](https://dblp.org/xml/release/)
